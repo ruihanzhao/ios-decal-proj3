@@ -18,8 +18,13 @@ class Photo {
 
     /* Parses a NSDictionary and creates a photo object. */
     init (data: NSDictionary) {
+        likes = data.valueForKey("likes")?.valueForKey("count") as! Int
+        url = data.valueForKey("images")?.valueForKey("standard_resolution")?.valueForKey("url") as! String!
+        username = data.valueForKey("user")?.valueForKey("username") as! String!
+        
         // FILL ME IN
         // HINT: use nested .valueForKey() calls, and then cast using 'as! TYPE'
+        
     }
 
 }

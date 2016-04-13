@@ -36,14 +36,14 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-    <key>client_id</key>
-    <string>de1833e96d634b259690710ef4dbc93e</string>
-    <key>client_secret</key>
-    <string>15f0108c07644ec58d74a7ed4fffad65</string>
-    <key>NSAppTransportSecurity</key>
-    <dict>
-        <key>NSAllowsArbitraryLoads</key>
-        <true/>
-    </dict>
+	<key>client_id</key>
+	<string>de1833e96d634b259690710ef4dbc93e</string>
+	<key>client_secret</key>
+	<string>15f0108c07644ec58d74a7ed4fffad65</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 </dict>
 </plist>

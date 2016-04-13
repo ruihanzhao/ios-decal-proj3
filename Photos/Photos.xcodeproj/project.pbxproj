@@ -15,6 +15,10 @@
 		3A1683A31BE9B717009F39C5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1683A21BE9B717009F39C5 /* Utils.swift */; };
 		3A1683A71BE9C593009F39C5 /* InstagramAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1683A61BE9C593009F39C5 /* InstagramAPI.swift */; };
 		3A1683A91BE9C5A7009F39C5 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1683A81BE9C5A7009F39C5 /* Photo.swift */; };
+		95908AF11CBDE16A00A6A1A2 /* EnlargePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95908AF01CBDE16A00A6A1A2 /* EnlargePhotoViewController.swift */; };
+		95908AF31CBDFBF900A6A1A2 /* CellCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95908AF21CBDFBF900A6A1A2 /* CellCollectionViewController.swift */; };
+		95908AF71CBE064700A6A1A2 /* roundDoge.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 95908AF61CBE064700A6A1A2 /* roundDoge.jpeg */; };
+		95908AF91CBE06BE00A6A1A2 /* hangmanCover.gif in Resources */ = {isa = PBXBuildFile; fileRef = 95908AF81CBE06BE00A6A1A2 /* hangmanCover.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		3A1683A21BE9B717009F39C5 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		3A1683A61BE9C593009F39C5 /* InstagramAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramAPI.swift; sourceTree = "<group>"; };
 		3A1683A81BE9C5A7009F39C5 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		95908AF01CBDE16A00A6A1A2 /* EnlargePhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnlargePhotoViewController.swift; sourceTree = "<group>"; };
+		95908AF21CBDFBF900A6A1A2 /* CellCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellCollectionViewController.swift; sourceTree = "<group>"; };
+		95908AF61CBE064700A6A1A2 /* roundDoge.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = roundDoge.jpeg; path = ../../../../Downloads/roundDoge.jpeg; sourceTree = "<group>"; };
+		95908AF81CBE06BE00A6A1A2 /* hangmanCover.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = hangmanCover.gif; path = ../../../../Documents/hangmanCover.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +92,10 @@
 			isa = PBXGroup;
 			children = (
 				3A1683911BE9B642009F39C5 /* PhotosCollectionViewController.swift */,
+				95908AF81CBE06BE00A6A1A2 /* hangmanCover.gif */,
+				95908AF61CBE064700A6A1A2 /* roundDoge.jpeg */,
+				95908AF21CBDFBF900A6A1A2 /* CellCollectionViewController.swift */,
+				95908AF01CBDE16A00A6A1A2 /* EnlargePhotoViewController.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -157,7 +169,9 @@
 			files = (
 				3A16839A1BE9B642009F39C5 /* LaunchScreen.storyboard in Resources */,
 				3A1683971BE9B642009F39C5 /* Assets.xcassets in Resources */,
+				95908AF71CBE064700A6A1A2 /* roundDoge.jpeg in Resources */,
 				3A1683951BE9B642009F39C5 /* Main.storyboard in Resources */,
+				95908AF91CBE06BE00A6A1A2 /* hangmanCover.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +182,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95908AF11CBDE16A00A6A1A2 /* EnlargePhotoViewController.swift in Sources */,
+				95908AF31CBDFBF900A6A1A2 /* CellCollectionViewController.swift in Sources */,
 				3A1683921BE9B642009F39C5 /* PhotosCollectionViewController.swift in Sources */,
 				3A1683901BE9B642009F39C5 /* AppDelegate.swift in Sources */,
 				3A1683A31BE9B717009F39C5 /* Utils.swift in Sources */,
