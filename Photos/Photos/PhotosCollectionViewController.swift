@@ -43,21 +43,25 @@ class PhotosCollectionViewController: UICollectionViewController {
         loadImageForCell(currPhoto, imageView: imageViewz)
         return cell
     }
-    override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
-        clickedPhoto = photos[indexPath.item]
-        //print(clickedPhoto)
-        let destinationVC = EnlargePhotoViewController()
-        destinationVC.photo = clickedPhoto
-        destinationVC.performSegueWithIdentifier("evil", sender: self)
-
-    }
-//    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-//
-//        let photoVC = segue.destinationViewController as! EnlargePhotoViewController
-//        photoVC.photo = clickedPhoto
-//        //photoVC.clickedImage = sender?.subviews[0] as! UIImageView
+//    override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+//        clickedPhoto = photos[indexPath.item]
 //        
+//        //print(clickedPhoto)
+//        let destinationVC = EnlargePhotoViewController()
+//        destinationVC.photo = clickedPhoto
+//        destinationVC.performSegueWithIdentifier("evil", sender: self)
+//
 //    }
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+
+        let photoVC = segue.destinationViewController as! EnlargePhotoViewController
+        //photoVC.photo = clickedPhoto
+        //photoVC.clickedImage = sender?.subviews[0] as! UIImageView
+        let cell = sender as! UICollectionViewCell
+        let row = collectionView!.indexPathForCell(cell)
+        let photo = photos[row!.item]
+        photoVC.photo = photo
+    }
     @IBAction func unwindToPhotosCollectionViewController(segue : UIStoryboardSegue) {
         
     }
